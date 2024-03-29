@@ -170,3 +170,77 @@ body {
   top: 265px;
   left: 430px;
 }
+
+/*galeri*/
+.galery {
+  margin: auto;
+  padding: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.image {
+  float: left;
+  flex: 1 0 100px;
+  margin: 15px;
+}
+.image img {
+  padding: 4px;
+  border-radius: 15px;
+  height: auto;
+}
+
+/*form*/
+.teks{
+  display: inline-block;
+  text-align: right;
+  margin-right: 5px;
+}
+.teks, .Form{
+  color: rgba(1, 50, 32, 1);
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  flex: 1;
+  margin: 15px;
+}
+.form-background{
+  height: 350px;
+  display: flex;
+  margin: 15px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: aquamarine;
+  border-radius: 5px;
+}
+.form-box{
+  margin-left: 5px;
+  width: 50rem;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  border-radius: 15px;
+  background-color: white;
+}
+.Form{
+  margin-left: 5px;
+  display: block;
+  flex-direction: column;
+}
+.isi{
+
+  margin-top: 5px;
+  font-weight: bold;
+}
+.input{
+  padding: 5px;
+  margin-top: 5px;
+  display: inline;
+  border-radius: 15px;
+}
+.isi-Feedback{
+  padding: 5px;
+  margin-top: 5px;
+  width: 300px;
+  height: 100%;
+}
