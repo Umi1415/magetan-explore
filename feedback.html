@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <header>
+        <h1>MAGETAN</h1>
+        <nav>
+            <a href="index.html">Beranda</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Feedback</h2>
+        <div class="keterangan-feedback">
+            <p>Total Keseluruhan Feedback</p>
+            <p>Feedback yang di pin</p>
+            <p>Feedback yang di hapus</p>
+        </div>
+        <div class="info-feedback">
+            <p>1,260</p>
+            <p>770</p>
+            <p>10</p>
+        </div>
+        <div class="feedback">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Gmail</th>
+                        <th>Pesan</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Akun Percobaan 1</td>
+                        <td>akunpercobaanl@gmail.com</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit</td>
+                        <td>
+                            <span class="pin">PIN</span>
+                            <span class="delete" onclick="return confirm('Yakin ingin menghapus feedback ini?')">DELETE</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Akun Percobaan 2</td>
+                        <td>akunpercobaan2@gmail.com</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit</td>
+                        <td>
+                            <span class="pin">PIN</span>
+                            <span class="delete" onclick="return confirm('Yakin ingin menghapus feedback ini?')">DELETE</span>
+                        </td>
+                    </tr>
+                    </tbody>
+            </table>
+        </div>
+    </main>
+
+</body>
+</html>
